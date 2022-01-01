@@ -77,6 +77,11 @@ public final class Settings {
     public final Setting<Double> blockBreakAdditionalPenalty = new Setting<>(2D);
 
     /**
+     * Stop using tools just before they are going to break.
+     */
+    public final Setting<Boolean> itemSaver = new Setting<>(false);
+
+    /**
      * Additional penalty for hitting the space bar (ascend, pillar, or parkour) because it uses hunger
      */
     public final Setting<Double> jumpPenalty = new Setting<>(2D);
